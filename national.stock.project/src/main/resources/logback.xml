@@ -1,0 +1,27 @@
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <target>System.out</target>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} - %5p - %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT" />
+    </root>
+
+    <!-- Colored console output configuration -->
+    <appender name="COLOR_STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <target>System.out</target>
+        <encoder>
+            <pattern>
+                <![CDATA[
+                %d{yyyy-MM-dd HH:mm:ss} %highlight(%level) - %msg%n
+                ]]>
+            </pattern>
+        </encoder>
+    </appender>
+
+    <logger name="org.openqa.selenium" level="INFO" />
+    <logger name="org.springframework" level="INFO" />
+</configuration>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-19T19:22:09 IST" name="StockInformationValidationSuite" finished-at="2024-11-19T19:22:26 IST" duration-ms="16936">
+    <groups>
+    </groups>
+    <test started-at="2024-11-19T19:22:09 IST" name="ChromeTest" finished-at="2024-11-19T19:22:21 IST" duration-ms="11373">
+      <class name="stockAutomationTests.StockInfoValidationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:stockAutomationTests.StockInfoValidationTest@514646ef]" started-at="2024-11-19T19:22:10 IST" name="setUp" finished-at="2024-11-19T19:22:14 IST" duration-ms="4635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyStockInformation()[pri:0, instance:stockAutomationTests.StockInfoValidationTest@514646ef]" started-at="2024-11-19T19:22:14 IST" name="verifyStockInformation" finished-at="2024-11-19T19:22:21 IST" duration-ms="6264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStockInformation -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:stockAutomationTests.StockInfoValidationTest@514646ef]" started-at="2024-11-19T19:22:21 IST" name="takeScreenshotOnFailure" finished-at="2024-11-19T19:22:21 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyStockInformation status=SUCCESS method=StockInfoValidationTest.verifyStockInformation()[pri:0, instance:stockAutomationTests.StockInfoValidationTest@514646ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+      </class> <!-- stockAutomationTests.StockInfoValidationTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-11-19T19:22:09 IST" name="EdgeTest" finished-at="2024-11-19T19:22:26 IST" duration-ms="16936">
+      <class name="stockAutomationTests.StockInfoValidationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:stockAutomationTests.StockInfoValidationTest@48e1f6c7]" started-at="2024-11-19T19:22:10 IST" name="setUp" finished-at="2024-11-19T19:22:20 IST" duration-ms="10712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyStockInformation()[pri:0, instance:stockAutomationTests.StockInfoValidationTest@48e1f6c7]" started-at="2024-11-19T19:22:20 IST" name="verifyStockInformation" finished-at="2024-11-19T19:22:26 IST" duration-ms="5823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStockInformation -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:stockAutomationTests.StockInfoValidationTest@48e1f6c7]" started-at="2024-11-19T19:22:26 IST" name="takeScreenshotOnFailure" finished-at="2024-11-19T19:22:26 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyStockInformation status=SUCCESS method=StockInfoValidationTest.verifyStockInformation()[pri:0, instance:stockAutomationTests.StockInfoValidationTest@48e1f6c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+      </class> <!-- stockAutomationTests.StockInfoValidationTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- StockInformationValidationSuite -->
+</testng-results>
